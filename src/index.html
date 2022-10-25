@@ -13,11 +13,14 @@
     <link rel="stylesheet"
           href="css/font.css">
     <link rel="stylesheet"
+          type="text/css"
+          href="css/slick.css" />
+    <link rel="stylesheet"
           href="css/slyle.min.css">
 </head>
 
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#"
@@ -57,8 +60,8 @@
 
 
         </div>
-    </div>
-    <div class="advantages">
+    </section>
+    <section class="advantages">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
@@ -90,9 +93,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="consultation">
+    <section class="consultation">
         <div class="container">
             <h2 class="title title_left">
                 Получите бесплатную консультацию <br>по подбору пульсометра
@@ -100,22 +103,47 @@
             <div class="consultation__descr">
                 Просто заполните форму заявки<br> и мы перезвоним вам в течении 10 минут
             </div>
-            <form class="feed-form" action="#">
-                <input name="name" required
+            <form class="feed-form"
+                  action="#">
+                <input name="name"
+                       required
                        placeholder="Ваше имя"
                        type="text">
-                <input name="phone" required
+                <input name="phone"
+                       required
                        placeholder="Ваш телефон"
                        type="number">
-                <input name="email" required
+                <input name="email"
+                       required
                        placeholder="Ваш E-mail"
                        type="email">
 
                 <button class="button button_submit">заказать консультацию</button>
             </form>
-
         </div>
-    </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div><img src="img/slaider/slaid_1.png"
+                         alt="slaid_1"></div>
+                <div><img src="img/slaider/slaid_2.png"
+                         alt="slaid_2"></div>
+                <div><img src="img/slaider/slaid_3.png"
+                         alt="slaid_3"></div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript"
+            src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+
 </body>
 
 </html>
