@@ -161,13 +161,19 @@
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+            
+            ul {
+                margin-bottom: 0;
+                padding-left: 4px;
+            }
 
-            li {
+            ul li {
                 position: relative;
                 font-weight: 300;
                 font-size: 14px;
                 color: #555555;
                 margin-bottom: 20px;
+                list-style-type: none;
 
                 &::before {
                     content: '';
@@ -178,6 +184,10 @@
                     left: -14px;
                     top: 7px;
                 }
+            }
+
+            li {
+                list-style-type: none;
             }
         }
 
