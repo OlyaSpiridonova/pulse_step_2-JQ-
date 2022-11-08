@@ -16,11 +16,14 @@
           type="text/css"
           href="css/slick.css" />
     <link rel="stylesheet"
+          href="css/animate.css">
+    <link rel="stylesheet"
           href="css/slyle.min.css">
 </head>
 
 <body>
-    <section class="promo">
+    <section id="up"
+             class="promo">
         <div class="container">
             <header class="header">
                 <a href="#"
@@ -35,7 +38,8 @@
                 <div class="header__contacts">
                     <a href="tel:+74999228974"
                        class="header__phone">+7 (499) 922-89-74</a>
-                    <button data-modal="consultation" class="button">заказать звонок</button>
+                    <button data-modal="consultation"
+                            class="button">заказать звонок</button>
                 </div>
             </header>
             <div class="promo__wrapper">
@@ -52,7 +56,8 @@
                     <div class="promo__icon"><img src="icons/messages.png"
                              alt="message">Ответим на все вопросы</div>
                 </div>
-                <button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+                <button data-modal="consultation"
+                        class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
                 <div class="promo__link">или
                     <a href="#">или ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
@@ -76,7 +81,7 @@
                 <div class="advantages__item">
                     <img src="icons/heart.png"
                          alt="heart"
-                         class="advantages__icon">
+                         class="advantages__icon advantages__icon_animated">
                     <div class="advantages__subtitle">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему
                         здоровью и были в радость Вам и Вашим близким!</div>
@@ -86,7 +91,8 @@
                          alt="shoe"
                          class="advantages__icon">
                     <div class="advantages__subtitle">Учим бегать</div>
-                    <div class="advantages__descr">Помогаем с обучением правильной технике бега! Дружим с крупнейшей
+                    <div class="advantages__descr">Помогаем с обучением правильной технике бега! Дружим с
+                        крупнейшей
                         школой бега в России
                         <a href="#">- I LOVE RUNNING.</a>
                     </div>
@@ -103,18 +109,15 @@
             <div class="consultation__descr">
                 Просто заполните форму заявки<br> и мы перезвоним вам в течении 10 минут
             </div>
-            <form class="feed-form"
+            <form id="consultation-form"
+                  class="feed-form"
                   action="#">
                 <input name="name"
-                       required
                        placeholder="Ваше имя"
                        type="text">
                 <input name="phone"
-                       required
-                       placeholder="Ваш телефон"
-                       type="number">
+                       placeholder="Ваш телефон">
                 <input name="email"
-                       required
                        placeholder="Ваш E-mail"
                        type="email">
 
@@ -152,7 +155,7 @@
             </ul>
 
             <div class="catalog__content catalog__content_active">
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__backInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/catalog/pulsometr_1.png"
@@ -185,7 +188,7 @@
                     </div>
 
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__backInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/catalog/pulsometr_1.png"
@@ -218,7 +221,7 @@
                     </div>
 
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__backInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/catalog/pulsometr_1.png"
@@ -251,7 +254,7 @@
                     </div>
 
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__backInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/catalog/pulsometr_1.png"
@@ -284,7 +287,7 @@
                     </div>
 
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__backInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/catalog/pulsometr_1.png"
@@ -317,7 +320,7 @@
                     </div>
 
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__backInRight" data-wow-duration="1s" data-wow-delay="0.5s">>
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/catalog/pulsometr_1.png"
@@ -460,7 +463,7 @@
     <section class="feed">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="feed__item">
+            <div class="feed__item wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/feed/photo_1.png"
                      alt="Ирина Иванченко "
                      class="feed__img">
@@ -476,7 +479,7 @@
                 </div>
             </div>
 
-            <div class="feed__item">
+            <div class="feed__item wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/feed/photo_2.png"
                      alt="Иван Сёмочкин"
                      class="feed__img">
@@ -491,7 +494,7 @@
                 </div>
             </div>
 
-            <div class="feed__item">
+            <div class="feed__item wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/feed/photo_3.png"
                      alt="Юлия Дашкина"
                      class="feed__img">
@@ -545,15 +548,11 @@
             <form class="feed-form feed-form_mt25"
                   action="#">
                 <input name="name"
-                       required
                        placeholder="Ваше имя"
                        type="text">
                 <input name="phone"
-                       required
-                       placeholder="Ваш телефон"
-                       type="number">
+                       placeholder="Ваш телефон">
                 <input name="email"
-                       required
                        placeholder="Ваш E-mail"
                        type="email">
 
@@ -569,15 +568,11 @@
             <form class="feed-form feed-form_mt25"
                   action="#">
                 <input name="name"
-                       required
                        placeholder="Ваше имя"
                        type="text">
                 <input name="phone"
-                       required
-                       placeholder="Ваш телефон"
-                       type="number">
+                       placeholder="Ваш телефон">
                 <input name="email"
-                       required
                        placeholder="Ваш E-mail"
                        type="email">
 
@@ -598,7 +593,17 @@
     <script type="text/javascript"
             src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
+
+    <a href="#up"
+       class="pageup">
+        <img src="img/up.svg"
+             alt="up">
+    </a>
+
 
 
 </body>

@@ -26,6 +26,33 @@
 
         }
     }
+
+    .consultation {
+        min-height: 600px;
+        padding: 70px 0 70px 0;
+
+        .title_left {
+            font-size: 27px;
+        }
+
+        .consultation__descr {
+            font-size: 17px;
+        }
+        .button_submit {
+            font-size: 14px;
+        }
+    }
+
+    .feed {
+
+        .title {
+            font-size: 27px;
+        }
+        .feed__item {
+            margin-top: 50px;
+        }
+
+    }
 }
 
 @media (max-width: 991px) {
@@ -145,6 +172,4 @@
     }
 }
 
-@media (max-width: 575px) {
-    
-}
+@media (max-width: 575px) {}
